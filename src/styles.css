@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+.logo {
+
+}
+
+.ngClassDemo div {
+	padding: 3px;
+	nargin: 2px;
+}
+
+.ngClassDemo button {
+	margin-bottom: 20px;
+}
+
+.bordered {
+	border: 1px dashed black;
+	background-color: #eee;
+}
+
+.base {
+	padding: 20px;
+	border: 2px solid #ccc;
+}
+
+.blue {
+	background: blue;
+}
+
+.round {
+	border-radius: 10px;
+}
