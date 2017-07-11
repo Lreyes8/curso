@@ -5,8 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './ng-non-bindable-example.component.html',
 })
 export class NgNonBindableExampleComponent {
+	content: string;
 
-  constructor() { }
+  constructor() { 
+  	this.content = "Quiero vacaciones";
+  }
 
 
 }
