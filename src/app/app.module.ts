@@ -28,6 +28,7 @@ import { NgNonBindableExampleComponent } from './ng-non-bindable-example/ng-non-
 import { DemoFormSkuComponent } from './demo-form-sku/demo-form-sku.component';
 import { DemoFormSkuWithBuilderComponent } from './demo-form-sku-with-builder/demo-form-sku-with-builder.component';
 import { DemoFormExampleComponent } from './demo-form-example/demo-form-example.component';
+import { FormWithValidationsExplicitComponent } from './form-with-validations-explicit/form-with-validations-explicit.component';
 
 // Master List
 
@@ -41,6 +42,7 @@ export const examples: ExampleDef[] = [
   {label: 'DemoFormSku', name: 'DemoFormSku', component: DemoFormSkuComponent, path: 'demo_form_sku'},
   {label: 'DemoFormSkuWithBuilder', name: 'DemoFormSkuWithBuilder', component: DemoFormSkuWithBuilderComponent, path: 'demo_form_sku_with_builder'},
   {label: 'DemoFormExample', name: 'DemoFormExample', component: DemoFormExampleComponent, path: 'demo_form_example'},
+  {label: 'Validation Explicit', name: 'FormWithValidationsExplicit', component: FormWithValidationsExplicitComponent, path: 'form_validation_explicit'},
 ]
 
 // Routes
@@ -55,6 +57,7 @@ const routes: Routes = [
   { path: 'demo_form_sku', component: DemoFormSkuComponent, pathMatch: 'full'},
   { path: 'demo_form_sku_with_builder', component: DemoFormSkuWithBuilderComponent, pathMatch: 'full'},
   { path: 'demo_form_example', component: DemoFormExampleComponent, pathMatch: 'full'},
+  { path: 'form_validation_explicit', component: FormWithValidationsExplicitComponent, pathMatch: 'full'},
 ];
 
 
@@ -71,7 +74,8 @@ const routes: Routes = [
     NgNonBindableExampleComponent,
     DemoFormSkuComponent,
     DemoFormSkuWithBuilderComponent,
-    DemoFormExampleComponent
+    DemoFormExampleComponent,
+    FormWithValidationsExplicitComponent
   ],
   imports: [
     BrowserModule,
